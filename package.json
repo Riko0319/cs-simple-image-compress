@@ -1,0 +1,32 @@
+{
+  "name": "cs-simple-image-compress",
+  "version": "0.1.0",
+  "description": "simple image compress tool",
+  "type": "module",
+  "main": "dist/cs-simple-image-compress.es.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "vite build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Riko0319/cs-simple-image-compress.git"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "image compress",
+    "png compress"
+  ],
+  "author": "riko",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Riko0319/cs-simple-image-compress/issues"
+  },
+  "homepage": "https://github.com/Riko0319/cs-simple-image-compress#readme",
+  "dependencies": {
+    "upng-js": "^2.1.0",
+    "vite": "^5.4.8"
+  }
+}
